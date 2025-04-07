@@ -1,0 +1,41 @@
+body {
+    font-weight: 200;
+}
+
+.chat {
+    max-width: 400px;
+}
+
+.messages_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    border: 1px solid black;
+    padding: 7px;
+}
+
+.message_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message_text {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.input_message_container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
